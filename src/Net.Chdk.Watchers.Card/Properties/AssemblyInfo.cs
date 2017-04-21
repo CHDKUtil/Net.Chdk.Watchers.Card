@@ -1,7 +1,4 @@
-﻿using System.Resources;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
+﻿using System.Reflection;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
@@ -9,20 +6,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Net.Chdk.Watchers.Card")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Dmitry Shechtman")]
-[assembly: AssemblyProduct("Net.Chdk")]
-[assembly: AssemblyCopyright("Copyright © 2017 Dmitry Shechtman")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-[assembly: NeutralResourcesLanguage("en")]
-
-// Setting ComVisible to false makes the types in this assembly not visible 
-// to COM components.  If you need to access a type in this assembly from 
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
-
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2f873035-ea51-4ba7-bff7-e8bdd325cdaf")]
 
 // Version information for an assembly consists of the following four values:
 //
