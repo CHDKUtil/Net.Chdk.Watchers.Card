@@ -46,6 +46,12 @@
     <Compile Include="CardWatcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Net.Chdk.Watchers.Card.Core\src\Net.Chdk.Watchers.Card.Core\Net.Chdk.Watchers.Card.Core.csproj">
+      <Project>{893569FE-D17E-46B4-A08F-8D7B072BE07B}</Project>
+      <Name>Net.Chdk.Watchers.Card.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

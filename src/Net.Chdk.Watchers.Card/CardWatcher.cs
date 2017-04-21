@@ -3,7 +3,7 @@ using System.Management;
 
 namespace Net.Chdk.Watchers.Card
 {
-    public sealed class CardWatcher : IDisposable
+    public sealed class CardWatcher : ICardWatcher
     {
         private ManagementEventWatcher Watcher { get; set; }
 
