@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Management;
 
-namespace Net.Chdk.Watchers.Card
+namespace Net.Chdk.Watchers.Volume
 {
-    public sealed class CardWatcher : ICardWatcher
+    public sealed class VolumeWatcher : IVolumeWatcher
     {
         private ManagementEventWatcher Watcher { get; set; }
 
@@ -40,13 +40,13 @@ namespace Net.Chdk.Watchers.Card
         /// Raised when a volume is added.
         /// </summary>
         /// <value>Drive letter.</value>
-        public event EventHandler<string> CardAdded;
+        public event EventHandler<string> VolumeAdded;
 
         /// <summary>
         /// Raised when a volume is removed.
         /// </summary>
         /// <value>Drive letter.</value>
-        public event EventHandler<string> CardRemoved;
+        public event EventHandler<string> VolumeRemoved;
 
         private void Watcher_EventArrived(object sender, EventArrivedEventArgs e)
         {
@@ -55,10 +55,10 @@ namespace Net.Chdk.Watchers.Card
             switch (eventType)
             {
                 case 2:
-                    CardAdded?.Invoke(this, driveLetter);
+                    VolumeAdded?.Invoke(this, driveLetter);
                     break;
                 case 3:
-                    CardRemoved?.Invoke(this, driveLetter);
+                    VolumeRemoved?.Invoke(this, driveLetter);
                     break;
                 default:
                     break;

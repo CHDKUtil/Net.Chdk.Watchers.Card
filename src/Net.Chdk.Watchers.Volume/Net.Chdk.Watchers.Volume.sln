@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Watchers.Card", "Net.Chdk.Watchers.Card.csproj", "{2F873035-EA51-4BA7-BFF7-E8BDD325CDAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Watchers.Volume", "Net.Chdk.Watchers.Volume.csproj", "{2F873035-EA51-4BA7-BFF7-E8BDD325CDAF}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Net.Chdk.Shared", "..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.shproj", "{83C6A77C-3286-4F5F-B628-3B971097AD05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Watchers.Card.Core", "..\..\..\Net.Chdk.Watchers.Card.Core\src\Net.Chdk.Watchers.Card.Core\Net.Chdk.Watchers.Card.Core.csproj", "{893569FE-D17E-46B4-A08F-8D7B072BE07B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Watchers.Volume.Core", "..\..\..\Net.Chdk.Watchers.Volume.Core\src\Net.Chdk.Watchers.Volume.Core\Net.Chdk.Watchers.Volume.Core.csproj", "{893569FE-D17E-46B4-A08F-8D7B072BE07B}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

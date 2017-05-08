@@ -7,8 +7,8 @@
     <ProjectGuid>{2F873035-EA51-4BA7-BFF7-E8BDD325CDAF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Net.Chdk.Watchers.Card</RootNamespace>
-    <AssemblyName>Net.Chdk.Watchers.Card</AssemblyName>
+    <RootNamespace>Net.Chdk.Watchers.Volume</RootNamespace>
+    <AssemblyName>Net.Chdk.Watchers.Volume</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -54,14 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CardWatcher.cs" />
+    <Compile Include="VolumeWatcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceCollectionExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Net.Chdk.Watchers.Card.Core\src\Net.Chdk.Watchers.Card.Core\Net.Chdk.Watchers.Card.Core.csproj">
+    <ProjectReference Include="..\..\..\Net.Chdk.Watchers.Volume.Core\src\Net.Chdk.Watchers.Volume.Core\Net.Chdk.Watchers.Volume.Core.csproj">
       <Project>{893569FE-D17E-46B4-A08F-8D7B072BE07B}</Project>
-      <Name>Net.Chdk.Watchers.Card.Core</Name>
+      <Name>Net.Chdk.Watchers.Volume.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
