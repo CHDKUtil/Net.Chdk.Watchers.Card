@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Net.Chdk.Watchers.Volume</id>
+    <version>0.1.0-alpha</version>
+    <title>Net.Chdk.Watchers.Volume</title>
+    <authors>Dmitry Shechtman</authors>
+    <owners>Dmitry Shechtman</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/CHDKUtil/Net.Chdk.Watchers.Volume/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/CHDKUtil/Net.Chdk.Watchers.Volume</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/CHDKUtil/CHIMP/master/tiny.png</iconUrl>
+    <description>CHIMP volume watcher</description>
+    <copyright>Copyright © 2017 Dmitry Shechtman</copyright>
+    <tags>chimp watcher volume</tags>
+    <repository url="https://github.com/CHDKUtil/Net.Chdk.Watchers.Volume" />
+    <dependencies>
+      <group>
+        <dependency id="Net.Chdk.Watchers.Volume.Core" version="0.1.0-alpha" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Net.Chdk.Watchers.Volume.dll" target="lib\net45" />
+  </files>
+</package>
