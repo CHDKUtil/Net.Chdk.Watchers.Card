@@ -3,6 +3,7 @@ using System.Management;
 
 namespace Net.Chdk.Watchers.Volume
 {
+    [Obsolete]
     public sealed class VolumeWatcher : IVolumeWatcher
     {
         private ManagementEventWatcher Watcher { get; set; }
