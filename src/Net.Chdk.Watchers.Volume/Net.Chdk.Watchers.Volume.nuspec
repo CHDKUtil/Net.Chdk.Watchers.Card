@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Net.Chdk.Watchers.Volume</id>
-    <version>0.1.0-alpha</version>
+    <version>0.2.0-alpha</version>
     <title>Net.Chdk.Watchers.Volume</title>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
@@ -16,7 +16,7 @@
     <repository url="https://github.com/CHDKUtil/Net.Chdk.Watchers.Volume" />
     <dependencies>
       <group>
-        <dependency id="Net.Chdk.Watchers.Volume.Core" version="0.1.0-alpha" exclude="Build,Analyzers" />
+        <dependency id="Net.Chdk.Watchers.Volume.Core" version="0.2.0-alpha" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
