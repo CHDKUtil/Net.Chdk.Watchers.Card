@@ -1,2 +1,2 @@
 # Net.Chdk.Watchers.Volume
-CHIMP volume watcher
+[OBSOLETE] CHIMP volume watcher
